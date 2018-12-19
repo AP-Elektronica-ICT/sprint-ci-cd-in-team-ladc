@@ -3,4 +3,5 @@
     <string name="andres_Activity">Andres</string>
     <string name="gursel_Activity">Gursel</string>
     <string name="Kerem_Activity">Kerem</string>
+    <string name="PlaySound_Button">PlaySound</string>
 </resources>

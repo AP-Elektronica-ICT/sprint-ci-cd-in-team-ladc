@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".SoundBoardActivity">
 
+    <Button
+        android:id="@+id/Button_PlaySound"
+        android:layout_width="155dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="196dp"
+        android:text="@string/PlaySound_Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
