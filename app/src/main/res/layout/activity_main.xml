@@ -10,9 +10,11 @@
         android:id="@+id/Button_Andres"
         android:layout_width="138dp"
         android:layout_height="45dp"
-        android:layout_marginStart="120dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="72dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/andres_Activity"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,10 +22,12 @@
         android:id="@+id/Button_Gursel"
         android:layout_width="138dp"
         android:layout_height="45dp"
-        android:layout_marginStart="120dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="116dp"
-        android:text="@string/gursel_Activity"
+        android:layout_marginEnd="8dp"
         android:onClick="ActivityGursel"
+        android:text="@string/gursel_Activity"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Button_Andres" />
 
@@ -31,10 +35,12 @@
         android:id="@+id/Button_Kerem"
         android:layout_width="138dp"
         android:layout_height="45dp"
-        android:layout_marginStart="120dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="116dp"
-        android:text="@string/Kerem_Activity"
+        android:layout_marginEnd="8dp"
         android:onClick="ActivityKerem"
+        android:text="@string/Kerem_Activity"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Button_Gursel" />
 
