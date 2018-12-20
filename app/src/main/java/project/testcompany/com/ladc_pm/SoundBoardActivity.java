@@ -8,6 +8,8 @@ import android.widget.Button;
 
 public class SoundBoardActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,10 +21,15 @@ public class SoundBoardActivity extends AppCompatActivity {
         final Button PlaySound = (Button) this.findViewById(R.id.Button_PlaySound);
 
         PlaySound.setOnClickListener(new View.OnClickListener(){
-           @Override
+
+            //boolean playing = false;
+
+            @Override
            public void onClick(View v)
            {
-               PlayBoxsound.start();
+
+                   PlayBoxsound.start();
+
            }
         });
 
